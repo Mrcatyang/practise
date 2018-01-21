@@ -1,0 +1,144 @@
+body{
+    background: #f0f0f0;
+}
+footer{
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.f-btn{
+    width: 40%;
+    height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+}
+#test{
+    padding-top: .5rem;
+    margin-bottom: 20%;
+}
+.day1{
+    margin: 0 .5rem .5rem .5rem;
+    border: .1rem solid #c9c9c9;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #24A7c6;
+    background: #f7f7f7;
+}
+ul{
+    position: relative;
+    margin: 0.5rem;
+    padding:2rem 2rem ;
+    background: #f7f7f7;
+    border: .1rem solid #c9c9c9;
+}
+li{
+    overflow: hidden;
+    height: 3rem;
+}
+.step{
+    position: relative;
+    float: right;
+    width: 80%;
+    background: #24A7c6;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.sj1{
+    position:absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 0;
+    width: 0;
+    border-right: 1rem solid transparent;
+    border-left: 1rem solid transparent;
+    border-bottom: 1.5rem solid  #f7f7f7;
+}
+.sj2{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1.5rem;
+    height: 0;
+    width: 0;
+    border-bottom: .8rem solid transparent;
+    border-top: .8rem solid transparent;
+    border-right: 1.5rem solid #24A7c6;
+}
+.line{
+    height: 3.5rem;
+    border-left: .1rem solid #c9c9c9;
+}
+.line1{
+    height: 4rem;
+    border-left: .1rem solid #c9c9c9;
+}
+.moon{
+    width: 3rem;
+    height: 3.5rem;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    background: url("http://119.10.57.69:880/jnshu3961/js/task4/images/moon.png") no-repeat 30% 50%;
+    background-size: 2.8rem;
+}
+.son{
+    width: 3rem;
+    height: 3.5rem;
+    position: absolute;
+    transform:translateX(-50%);
+    left: 10%;
+    background: url("http://119.10.57.69:880/jnshu3961/js/task4/images/son.png") no-repeat 50% 50%;
+    background-size: 2.8rem;
+}
+.p1{
+    position: absolute;
+    top: 9rem;
+    left: 10%;
+    transform:translateX(-50%);
+}
+.p2{
+    position: absolute;
+    top: 12.5rem;
+    left: 10%;
+    transform:translateX(-50%);
+}
+.p3{
+    position: absolute;
+    top: 5.5rem;
+    left: 10%;
+    transform:translateX(-50%);
+}
+.p4{
+    position: absolute;
+    top: 19rem;
+    left: 10%;
+    transform:translateX(-50%);
+}
+.kill{
+    background:#f7f7f7 ;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+
+/*----------后补-----------*/
+.cl{
+    background: #999;
+}
+.clbr{
+    border-right: 1.5rem solid #999;
+}
+.p5{
+    position: absolute;
+    top: 16rem;
+    left: 10%;
+    transform:translateX(-50%);}
+.dn{
+    display: none;
+}
+/*---------------------*/

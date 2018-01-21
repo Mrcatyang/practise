@@ -1,0 +1,127 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    background: #29bde0;
+}
+header{
+    position: fixed;
+    top:0;left: 0;right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    padding:0 .5rem;
+    line-height: 4rem;
+    color:white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.hd-bt{
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url("http://119.10.57.69:880/jnshu3961/js/task2/images/js-2.png") no-repeat;
+    background-size: 1.8rem;
+}
+.ex1{
+    position: fixed;
+    top:4rem;left: 0;right: 0;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 2rem;
+    background: #b9e9f5;
+}
+.ex2{
+    position: fixed;
+    top:7rem;left: 0;right: 0;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    padding: 0 2rem;
+}
+.sj{
+    position:absolute;
+    top: 0;
+    height: 0;
+    width: 0;
+    border-left: .5rem solid transparent;
+    border-top: .8rem solid #b9e9f5;
+    border-right: .5rem solid transparent;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem 3rem 2rem;
+    margin-top: 10rem;
+    margin-bottom: 20%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0 10%;
+    height: 6rem;
+    line-height: 6rem;
+    background: #29bde0;
+    text-align: center;
+}
+
+
+
+.w33{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 33.333333%;
+    margin-top: 2.8rem
+}
+.dx{
+    width: 5rem;
+    height: 5rem;
+    border: .2rem solid #fff;
+}
+.ide{
+    display: inline-block;
+    width: 5rem;
+    height: 3.8rem;
+    line-height: 3.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background: #f5c978;
+}
+.hm{
+    display: inline-block;
+    width: 5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: white;
+    background: #83b09a;
+}
+input[type=radio]{opacity:0;}
+input[type=radio]:checked + .dao {
+    display: block;}
+
+.dao{
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url("http://119.10.57.69:880/jnshu3961/js/js4/images/a.png");
+    background-size:1.5rem ;
+    display: none;
+}
+.sure{
+    width: 80%;
+    height: 4rem;
+    background: #fbb435;
+    border: none;
+    font-size: 3rem;
+    color: white;
+}

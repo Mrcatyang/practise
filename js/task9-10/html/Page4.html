@@ -1,0 +1,28 @@
+
+<div class="page4" ng-controller="commit">
+    <div class="page4-hd"><h6>新增Article</h6></div>
+    <form name="myForm" ng-model="myForm" novalidate>
+        <ul class="ul4">
+            <li>
+                <span class="tt">标题名称</span><input class="wb" type="text" ng-model="title" name="tt" required>
+            </li>
+            <span style="color:red;margin-left: .9rem" ng-show="myForm.tt.$error.required && kunge">用户名不能为空</span>
+            <li><span class="tt">类&emsp;&emsp;型</span>
+                <select class="wb w8" ng-model="type" ng-options="type.id as type.name for type in types" required
+                        name="type"></select>
+                <span style="color:red" ng-show="myForm.type.$error.required && kunge">请选择类型</span>
+                <select class="wb w8" ng-model="industry" ng-if="type=='3'"
+                        ng-options="industry.id as industry.name for industry in industrys"
+                        name="industry" required></select>
+                <span style="color:red" ng-show="myForm.industry.$error.required && kunge">请选择类型</span>
+            </li>
+            <editor></editor>
+            <li>
+                <span class="tt">跳转链接</span><input class="wb" type="url" ng-model="url" name="url" required>
+            </li>
+            <span style="color:#ff0000;margin-left: .9rem" ng-show="myForm.url.$error.required && kunge">链接不能为空</span>
+            <span style="color:red;margin-left: .9rem" ng-show="myForm.url.$error.url && kunge">链接格式不正确</span>
+            <upload-picture></upload-picture>
+        </ul>
+    </form>
+</div>

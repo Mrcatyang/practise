@@ -1,0 +1,346 @@
+html{font-size: 62.5%;}
+body{margin: 0;}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    padding: 0 15%;
+    color: white;
+    background:#1d7ad9; }
+header div{
+    display: inline-block;
+    position: relative;
+    width: 12rem;
+}
+header button{
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+}
+header button:hover{
+    color: black;
+    background: white;
+}
+.btn1{
+    position: absolute;
+    left: 6rem;
+}
+/**导航栏**/
+.back{
+    height: 7rem;
+    padding: 0 15%;
+    background: #f9f9f9;
+}
+.nav{
+    float: right;
+    width: 40%;
+    height: 3.5rem;
+    margin:1.75rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    display: inline-block;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 1px 1px 1px #ccc;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: white;
+    background:#1d7ad9;
+}
+/**导航栏**/
+
+main{
+    padding: 0 15%;
+}
+.pgb{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8rem;
+}
+.pgb div{
+    position: relative;
+    width: 12%;
+    text-align: center;
+}
+.pgb div:hover > .line{
+    background: #ff7f02;
+}
+.pgb div:hover > .circle{
+    background: #ff7f02;
+}
+.pgb div:hover > .text{
+    color: #ff7f02;
+}
+.line{
+    display: inline-block;
+    width: 100%;
+    height: .3rem;
+    border-radius: .15rem;
+    background: #ccc;
+}
+.circle{
+    display: inline-block;
+    position: relative;
+    top: -1.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    color: white;
+    border-radius: 50%;
+    background: #ccc;
+    text-align: center;
+}
+.text{
+    display:block;
+    top:2rem;
+    color: #ccc;
+}
+
+/**主体表单**/
+h4{
+    padding-left: .5rem;
+    border-left: .3rem solid #1d7ad9;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: .1rem solid #e7e7e7;
+}
+ul li{
+    height: 3rem;
+    padding-left: 4rem;
+    line-height: 3rem;
+    color:#1d7ad9 ;
+}
+.p1{
+    background:#f4f4f4 url("http://119.10.57.69:880/jnshu3961/css/task10/images/task10-1.png")no-repeat 1rem .5rem;
+}
+.p2{
+    background:#f4f4f4 url("http://119.10.57.69:880/jnshu3961/css/task10/images/task10-2.png")no-repeat 1rem .5rem;
+}
+.p3{
+    background:#f4f4f4 url("http://119.10.57.69:880/jnshu3961/css/task10/images/task10-3.png")no-repeat 1rem .5rem;
+}
+.fm1{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    padding:0 3rem;
+    line-height: 6rem;
+}
+.fm1-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fm1-1 div{
+    width: 15%;
+}
+.fm1 input{
+    margin-right: 1rem;
+}
+.fm2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 3rem;
+}
+.fm2-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    height: 10rem;
+}
+.fm2-1 div{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.fm2-1 input{
+    margin:0 .5rem;
+}
+.mb{
+    margin-top: 1rem;
+}
+.mt{
+    margin-bottom: 1rem;
+}
+.fm2-1 length{
+    width: 10%;
+}
+.fm3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+.fm3-1{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: 10rem;
+    line-height: 10rem;
+}
+.fm3-1 div{
+    width: 20%;
+}
+.fm3-1 input{
+    margin-right: 1rem;
+}
+.next{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next button{
+    width: 15%;
+    height: 3rem;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    background: #e15053;
+}
+label{
+    position: relative;
+}
+input[type=radio]{opacity:0;}
+ul .round{
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid #1d7ad9;
+}
+input[type=radio]:checked + .round {
+    border: .4rem solid #1d7ad9;}
+.r1{
+    top: 2.4rem;
+}
+.r2{
+    top:.4rem;
+}
+.r3{
+    top: 4.4rem;
+}
+.select{
+    display: flex;
+    align-items: center;
+}
+select{
+    width: 9rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    border: .1rem solid #e7e7e7;
+    outline: none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("http://119.10.57.69:880/jnshu3961/css/task10/images/task10-5.png")no-repeat right center ;
+}
+/**主体表单**/
+footer{
+    height: 20rem;
+    padding: 5rem 15% 0 15%;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    width: 33%;
+}
+.ft1{
+    font-size: 1.5rem;
+    color: #888;
+}
+.ft2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 8rem;
+    padding: 0 5%;
+}
+.ft2 span{
+    color: #888;
+    width: 30%;
+}
+.ft2 span:hover{
+    color: #1d7ad9;
+}
+.ft-last{
+    display: flex;
+    justify-content: space-around;
+}
+.ft3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 8rem;
+    padding-left: 8%;
+    color: #888;
+}
+.ft-last img{width: 6rem;height: 6rem;}
+.last{
+    text-align: center;
+    background:#1d7ad9;
+    height: 2rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    header{padding: 0 5%;}
+    header button{width: 6.5rem;}
+    .back{padding: 0 5%;display: flex;justify-content: space-between;}
+    .nav{width: 100%;}
+    main{padding: 0 5%;}
+    .pgb{display: flex;}
+    .pgb div{width: 25%;}
+    .fm1{height: auto;padding: 0 2rem;}
+    .fm1-1 div{width: 100%;}
+    .fm2{padding: 0 2rem;}
+    .fm2-1{height: auto;}
+    .mb{margin:0;}
+    .mt{margin:0;}
+    .w1{margin-top: -16rem}
+    .w2{margin-top: -16rem}
+    .w3{margin-top: -16rem}
+    .n1{margin-top: 12rem}
+    .n2{margin-top: 12rem}
+    .n3{margin-top: 12rem}
+    .n4{margin-top: 12rem}
+    .fm3-1{display: flex;flex-direction: column;height: auto;}
+    .fm3-1 div{width: auto;height: 6rem;display: flex;align-items: center;}
+    ul .round{width: 1.2rem;height: 1.2rem;}
+    .fm3{padding: 0 2rem;}
+    .next button{ width: 30%;}
+    footer{flex-direction: column;align-items: center;height: auto;}
+    footer div{width: 100%;margin-bottom: 2rem;}
+    .ft1{text-align: center;}
+    .ft3{padding: 0;}
+    .last{text-align: left;height: auto;padding: 0 5%;}
+}
+@media only screen and (min-width:769px) and (max-width: 1249px) {
+    header{padding: 0 5%;}
+    .back{padding: 0 5%;}
+    main{padding: 0 5%;}
+    footer{padding:5rem 5% 0 5%;}
+}

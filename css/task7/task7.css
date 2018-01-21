@@ -1,0 +1,20 @@
+html{font-size: 62.5%;background: white;height: 100%;}
+body{margin: 0;background: #f0f0f0;max-width: 41.4rem;margin: auto;height: 100%;}
+header{height: 3.75rem;background: #29bde0;}
+.first{width: 1.6rem;height: 1.6rem;background:url(http://119.10.57.69:880/jnshu3943/task7/images/task7-1.png)no-repeat;background-size: 1.6rem;margin:1.6rem 0 0 1rem; }
+.one{display:inline-block;margin:1.25rem 6.25% 0 6.25%;width:87.5%;height: 4.75rem;background: #fff url(http://119.10.57.69:880/jnshu3943/task7/images/task7-2.png)no-repeat 98% 50%;background-size:1.1rem 1.75rem;border-radius:0; font-size:1.7rem;color:#fbb435;}
+.title{margin:1.25rem 6.25% 0 6.25%;width:87.5%;height:3.8rem;line-height:3.8rem;font-size:1.7rem;color:#fbb435;text-align:center;background:#fff;border:.1rem solid #c9c9c9;border-bottom:.1rem solid #fbb435;}
+.two{width: 87.5%;height: 5.6rem;background:#69dae9;font-size:1.6rem;color: #fff;border-radius: 0;}
+.a{line-height: 4.5rem;}
+ul{position:relative;padding:1.25rem 0 0 0;margin:0 6.25% 0 6.25%;background: #fff;text-align: center;border:.1rem solid #c9c9c9; }
+li{height: 3.3rem;line-height:3.3rem;font-size: 1.2rem;color: #8d8d8d;list-style: none;text-align: center;}
+.round{display:inline-block;width:.9rem;height: .9rem;-moz-border-radius: 50px;border-radius: 50%;background: #f0f0f0; }
+.triangle{position:absolute;top:11.7rem;left:95%;width: 0;height: 0;border-top: 1.2rem solid transparent;border-left: .9rem solid #fbb435;border-bottom: 1.2rem solid transparent;}
+.father:hover
+.img-1{ display:block;}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {outline: none;}

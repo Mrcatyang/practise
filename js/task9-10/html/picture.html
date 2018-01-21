@@ -1,0 +1,47 @@
+<div>
+    <li><span class="tt" >配&emsp;&emsp;图</span>
+        <a href="javascript:;" class="file">
+            <input type="file" accept="image/png,image/gif,image/jpeg"
+                   onchange="angular.element(this).scope().loadPicture(this)" name="pic" required>选择文件
+        </a>
+        <span style="color:red;" ng-show="dz==undefined && kunge">图片不能为空</span>
+    </li>
+    <li class="pic">
+        <span>&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+            <img  ng-src='{{dz}}' style="font-size: 15px" alt="配图预览">
+    </li>
+    <li class="h4">
+        <span class="tt">&emsp;&emsp;&emsp;&emsp;</span>
+        <div class="line">
+            <span class="tt w16">图片名</span><span class="tt w16">文件大小</span><span class="tt w16">进度</span><span
+                class="tt w8">操作</span><span class="tt w8">操作</span>
+        </div>
+    </li>
+    <li class="h4" ng-repeat="x in fil">
+        <span class="tt">&emsp;&emsp;&emsp;&emsp;</span>
+        <div class="line nb">
+            <span class="tt w16">{{x.name}}</span><span class="tt w16">{{x.size|abc}}</span>
+            <span class="tt w16">
+
+                <div ng-class="{progress: true, 'progress-striped': vm.striped}" ng-style="{width: vm.wid}" class="pg">
+                   <div ng-class="['progress-bar', vm.style]" ng-style="{width: vm.value + '%'}">
+                       <div ng-if="vm.showLabel">{{vm.value}}%</div>
+                   </div>
+                </div>
+
+            </span>
+                <span class="tt w8" >
+                    <span class="glyphicon glyphicon-ok" style="margin-left: -.2rem" ng-show="nike"></span>
+                </span>
+                    <span class="tt w8"><button ng-click="upload()">上传</button><button>删除</button></span>
+        </div>
+    </li>
+    <li class="dir-bt">
+        <div>
+        <button class="bt1 btn btn-primary" ng-click="uploadEditor(1)">立即上线</button>
+        <button class="bt1 btn btn-primary" ng-click="uploadEditor(2)">存为草稿</button>
+        </div>
+        <button class="bt2">取消</button>
+    </li>
+
+</div>

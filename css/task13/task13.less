@@ -1,0 +1,250 @@
+@import "bootstrap.less";
+
+/**页面一**/
+.bd1{
+  background: #f0f0f0;
+}
+.hd-sd{
+    .sprite(2rem,2rem,0,-.6rem);
+  }
+.g-m1{
+  padding: 5rem 2rem 0 2rem;
+  background: #f0f0f0;
+  .m-bt{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+    padding: 0 20%;
+    font-size: 1.6rem;
+    color: #9a9a9a;
+    background: white;
+    border: @border;
+    a{
+      position: absolute;
+      top: 0;
+      right: 1rem;
+      .sprite(2rem,4rem,0,-4.4rem);
+    }
+  }
+  ul{
+    position: relative;
+    padding: 0 2.5rem 0 2.5rem;
+    background: #fff;
+    border: @border;
+    .ul-tt{
+      margin:0 -2.5rem 1rem -2.5rem;
+      color: #fbb435;
+      font-size: 1.6rem;
+      border-bottom:.1rem solid #fde1ae ;
+    }
+    button{
+      width: 100%;
+      height: 5rem;
+      color: #fff;
+      font-size: 1.6rem;
+      background: @color;
+    }
+    p{
+      margin: 0;
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 1.1rem;
+      color: #787878;
+      text-align: center;
+    }
+    .ul-rd{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 1.5rem;
+      .ul-rd1{
+        .rd;
+        background: @color;
+      }
+      .ul-rd2{
+        .rd;
+        background: #f0f0f0;
+      }
+    }
+    .ul-trg{
+      position: absolute;
+      top:13.5rem;
+      right: .7rem;
+      display: inline-block;
+      border-top: 1.1rem solid transparent;
+      border-bottom:1.1rem solid transparent;
+      border-left: 1.1rem solid #fbb435;
+    }
+  }
+}
+/**页面一**/
+
+/**页面二**/
+.bd2{
+  margin-top: 12.3rem;
+  background: @color;
+}
+.hd-sd2{
+  .sprite(2.5rem,2.5rem,0,-9.6rem)
+}
+.hd-close{
+  .sprite(2.5rem,2.5rem,0,-13.6rem)
+}
+.g-m2{
+  background: @color;
+}
+.m-tt1{
+  .fixed(4rem,0,0);
+  .flex;
+  z-index: 1;
+  height: 4rem;
+  font-size: 1.2rem;
+  padding: 0 1rem 0 2rem;
+  background: #b9e9f5;
+}
+.m-tt2{
+  .fixed(8rem,0,0);
+  padding: 1rem 2rem 2rem 4rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background: @color;
+  z-index:1000;
+  .xsj{
+    position: absolute;
+    top:0;
+    left:3rem;
+    border-top: .7rem solid #b9e9f5;
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+  }
+}
+.col-xs-4{
+  position: relative;
+  .flex;
+  justify-content: center;
+  background: @color;
+}
+.m-ct{
+  width: 5rem;
+  height: 5rem;
+  border: .3rem solid white;
+  .m-ct-tt1{
+    .flex;
+    justify-content: center;
+    height: 3.8rem;
+    background: #f5c97b;
+  }
+  .m-ct-tt2{
+    .flex;
+    justify-content: center;
+    height: 1.2rem;
+    color: white;
+    background: #83b09a;
+  }
+}
+.m-ct-tt3{
+  position: absolute;
+  top:5.5rem;
+  .sprite(5rem,3rem,0,-19.6rem);
+  background-size: 13rem;
+  opacity: 0;
+}
+.col-xs-4:hover>.m-ct-tt3{
+  opacity: 1;
+}
+.g-ft1{
+  justify-content: center;
+  .ft-bt{
+    width: 60%;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    background: #fbb435;
+  }
+}
+/**页面二**/
+
+/**页面三**/
+.hd-home{
+  .sprite(3rem,2.5rem,0,-22rem)
+}
+.hd-help{
+  .sprite(2.5rem,2.5rem,0,-17.9rem)
+}
+.g-m3{
+  margin-bottom: 50%;
+}
+.g-m3-res{
+  margin-top:4rem ;
+  padding: 0 3rem 1rem 3rem;
+  background-color: @color;
+  div{
+    height: 10rem;
+    background: url("http://119.10.57.69:880/jnshu3961/css/task13/images/task13-1.png")no-repeat 50% 50%;
+    background-size: 15rem;
+    color: white;
+    font-size: 2.5rem;
+    p{
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      margin-top: 6.2rem;
+    }
+  }
+}
+.g-m3-res-cre{
+  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+  color: #ffc865;
+  font-weight: bold;
+}
+.iden{
+  display: inline-block;
+  span{
+    display: inline-block;
+    width: 33.3333%;
+  }
+}
+.g-m3-ana{
+  padding: 0 3rem 1rem 3rem;
+  border-bottom: .1rem solid #ddd;
+  .g-m3-ana-time{
+    display: flex;
+    justify-content: space-between;
+    margin:.5rem 0 1rem 0;
+    .day{
+      font-size: 1.5rem;
+      color: black;
+    }
+    .hour{
+      color: #d6d6d6;
+    }
+  }
+  .g-m3-ana-time1{
+    font-size: 1.3rem;
+    color: #a6a6a6;
+  }
+}
+.g-ft2{
+    .flex;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 1rem;
+    background: rgba(41,189,224,.8);
+  button{
+    width: 45%;
+    height: 4rem;
+    border-radius: .4rem;
+    color: white;
+    font-size: 2rem;
+  }
+}
+.g-ft2-bt1{
+    background: #f66f6f;
+}
+.g-ft2-bt2{
+  background: #fbb435;
+}
+
+

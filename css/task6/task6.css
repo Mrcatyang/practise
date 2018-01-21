@@ -1,0 +1,25 @@
+html{font-size: 62.5%;}
+body{margin: 0;margin-top: 7.5rem;}
+header{position: fixed;top:0;width: 100%;height:3.9rem;background: #5fc0cd url(http://119.10.57.69:880/jnshu3943/task6/images/task6-1.png) no-repeat 95% 1rem;background-size: 1.85rem ;}
+button{width: 20.5%;height: 3.2rem;border-radius: .5rem;font-size: 1.5rem;outline: none;border: none;}
+.left{background: #55a8b3;color: white;position: absolute;left:30%;top: .35rem;}
+.right{background: white;color:#5fc0cd;position: absolute;left:50%;top: .35rem;}
+main{margin-bottom: 20%;}
+div.container div.row div {background-color: white;text-align:center;height: 3.6rem;border:none;padding: 0;}
+.container {margin: 0;width:100%;position: fixed;top: 3.9rem;border-bottom: 1px solid #e1e5e7;}
+.a{width: 100%;height:3.6rem;border: none;border-radius:0;font-size: 1.24rem;color: #999;position:relative;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6-5.png) no-repeat 100%;background-size: .2rem 3.9rem; }
+.caret{position: absolute;left: 90%;top:1.6rem;}
+.open>.btn{background-color:#fff!important;}
+.dropdown-menu{padding: 0;margin: 0;border: none;min-width:100%;text-align: center;}
+.adress{min-height: 3.6rem;font-size: 1.24rem;padding-top: .8rem;}
+ul{margin:0;padding: 0}
+li{list-style: none;min-height: 8rem;border-bottom: .1rem solid #e1e5e7;}
+.one{font-size:1.25rem;color: #999;height: 2.6rem;line-height: 2.6rem;padding-left: 3rem;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6.png) no-repeat 1.3rem .7rem;background-size: 1rem ;}
+.two{font-size:1.25rem;height: 2.6rem;line-height: 2.6rem;padding:0 3rem;}
+.three{font-size:1.25rem;color: #999;height: 2.6rem;line-height: 2.6rem;padding-left: 3rem;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6.png) no-repeat 1.3rem -1.2rem;background-size: 1rem ;}
+.time{display:inline-block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width: 60%;}
+strong{color: red;position: absolute;right: 1.3rem;padding-right: 1.8rem;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6.png) no-repeat 5.5rem -3.2rem;background-size: 1rem ;}
+footer{position:fixed;bottom:0;width:100%;height: 4.4rem;background-color: #f8fafb}
+.homepage{width:2.2rem;height:4.4rem;padding:2.9rem 0 0 0;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6-2.png)no-repeat 0 .5rem;background-size: 2.2rem ;position: absolute;left: 23%;font-size: .8rem;color: #5fc0cd;}
+.image{width:4.4rem;height:4.4rem;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6-3.png)no-repeat; background-size: 4.4rem ;position: absolute;left: 43.5%;}
+.mine{width:2.2rem;height:4.4rem;padding:2.9rem 0 0 0;background:url(http://119.10.57.69:880/jnshu3943/task6/images/task6-4.png)no-repeat 0 .5rem;background-size: 2.2rem ;position: absolute;left: 70.7%;font-size: .8rem;color: #999;}

@@ -1,0 +1,332 @@
+html{
+    font-size: 62.5%;
+}
+.cf1{
+    padding: 0;
+    height: 2.85rem;
+    line-height:2.85rem;
+    font-size: 1rem;
+}
+.col-xs-8{
+    padding: 0;
+}
+.r1{
+    margin: 0 18.9%;
+    padding: 0;
+}
+@media only screen and (max-width: 767px) {
+    .r1{
+        margin: 0 10%;
+    }
+    .carousel-indicators{
+        bottom: 0;
+    }
+    .r1{
+        margin: 0;
+    }
+}
+@media screen and (min-width: 768px)and (max-width:996px) {
+    .r1 {
+        margin: 0 10%;
+    }
+}
+.col-xs-2{
+    float:right;
+    width: 2rem;
+    height:2rem;
+    padding: 0;
+    margin: .4rem 0;
+}
+.a1{
+    display:inline-block;
+    width: 2rem;
+    height:2rem;
+    background: url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.png)no-repeat 0rem 50%;
+    background-size:8.5rem;
+}
+.a2{
+    display:inline-block;
+    width: 2rem;
+    height:2rem;
+    background: url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.png)no-repeat -2.8rem 50%;
+    background-size:8.5rem;
+}
+.a3{
+    display:inline-block;
+    width: 2rem;height:2rem;
+    background: url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.png)no-repeat -6.5rem 50%;
+    background-size:8.5rem;
+}
+.navbar-header{
+    position: relative;
+    height: 4.5rem;
+}
+@media only screen and (max-width: 767px) {
+    .cf1{
+        margin: 0 1rem;
+    }
+   .navbar > .r1 > .navbar-header{
+        margin-left: 1rem;
+    }
+}
+.logo{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width: 7.8rem;
+}
+.navbar {
+    margin: 0;
+    border-radius: 0px;
+    border: none;
+}
+.navbar-default {
+    background-color: #29b078;
+}
+.navbar-collapse{
+    text-align: center;
+    border:none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus ,
+.navbar-default .navbar-nav > li > a{
+    color: #FFF;
+    border-bottom: .3rem solid #29b078;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: #29b078;
+    border-bottom: .3rem solid #FFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:#29b078;
+}
+.navbar-default .navbar-toggle {
+    border-color: #29b078;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+div.item img{
+    width:100%;
+}
+div#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+}
+
+.d1{
+    width: 100%;
+    height: 18rem;
+    background:url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.2.5.png)no-repeat 50% 50%;
+    background-size: 100% 100%;
+}
+main{
+    padding: 0 18.9%;
+    overflow: hidden;
+}
+.d2{
+    height: 6rem;
+    line-height: 6rem;
+}
+.s2{
+    color: #999;
+}
+.list-group{
+    float: left;
+    width: 30%;
+    text-align: left;
+    border: .1rem solid #e6e6e6;
+}
+.s3{
+    display: inline-block;
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: black;
+    border-bottom: .1rem solid #e6e6e6;
+}
+.list-group > .list-group-item:hover{
+    background: none;
+    color: #f9a372;
+}
+.list-group-item:hover>.round{
+    border: .1rem solid #f9a372;
+    background: #f9a372;
+}
+.list-group-item{
+    padding-left: 35%;
+    line-height: 4rem;
+    border:none;
+    color: #74c5a0;
+}
+.round{
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    margin-right: .5rem;
+    border: .1rem solid #74c5a0;
+    border-radius: 50%;
+}
+.ul1{
+    float: right;
+    width: 68%;
+    margin: 0;
+    padding: 0 0 10rem 0;
+    font-size: 1rem;
+    color: #74c5a0;
+    list-style: none;
+    border: .1rem solid #e6e6e6;
+}
+.li1{
+    padding:2.4rem 5rem 2.4rem 16rem;
+    border-bottom: .1rem solid #e6e6e6;
+    background:url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.2.4.png)no-repeat 6rem 50%;
+    background-size: 10rem;
+}
+.li2{
+    padding:2.4rem 5rem;
+}
+@media only screen and (max-width: 767px) {
+    main{
+        padding: 0 10%;
+    }
+    .list-group{
+        width: 100%;
+    }
+    .ul1{
+        width: 100%;
+        padding: 0;
+    }
+    .li1{
+        background:url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.2.4.png)no-repeat 50% -2.5rem;
+        background-size: 50%;
+        padding:20% 1rem 1rem 1rem;
+    }
+    .li2{
+        padding:1rem;
+    }
+}
+@media screen and (min-width: 768px)and (max-width:996px) {
+    main{
+        padding: 0 10%;
+    }
+    .list-group{
+        width: 25%;
+    }
+    .ul1{
+        width: 73%;
+    }
+}
+.foot{
+    background: #26a26f;
+    margin-top: 1rem;
+    padding: 0 18.9%;
+    color: #FFFFFF;
+}
+.jns{
+    width:25%;
+    height: 14.4rem;
+}
+.jns-title{
+    margin: 2.5rem 0 4rem 0;
+}
+.jns-link{
+    display:inline-block;
+    width:4.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size:1rem;
+    color: #FFFFFF;
+    border-right: .1rem solid white;
+}
+.jns-link:hover{
+    color: #FFFFFF;
+}
+.qxwz-title{
+    margin: 2.5rem 0 1.5rem 0;
+}
+.qxwz-content{
+    display:inline-block;
+    width:40%;
+    height: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    font-size:1rem;
+    color: #FFFFFF;
+}
+.qxwz-content:hover{
+    color: #FFFFFF;
+}
+.ewm{
+    float: right;
+}
+.ewm-title{
+    float: right;
+    height: 9rem;
+    margin: 2.5rem 0 0 0;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-17.png)no-repeat  50% 2rem;
+    background-size:6.4rem;
+}
+.last{
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background: #26a26f;
+}
+
+@media only screen and (max-width: 767px) {
+    .foot{
+        padding:0 10%;
+    }
+    .jns{
+        width:100%;
+    }
+    .qxwz{
+        width: 100%;
+    }
+    .ewm{
+        width: 100%;
+        text-align: center;
+        background-position: 50% 4rem;}
+    .ewm-title{
+        float: none;
+    }
+    .d1{
+        width: 100%;
+        height: 6rem;
+        background:url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.2.5.png)no-repeat 50% 50%;
+        background-size: 100% 100%;
+    }
+}
+@media screen and (min-width: 768px)and (max-width:996px) {
+    .foot{
+        padding:0 10%;
+    }
+    .jns {
+        width: 50%;
+    }
+    .qxwz {
+        width: 50%
+    }
+    .ewm {
+        width: 50%;
+        text-align: center;
+        background-position: 50% 4rem;
+    }
+    .ewm-title {
+        float: none;
+    }
+    .d1{
+        width: 100%;
+        height: 15rem;
+        background:url(http://119.10.57.69:880/jnshu3961/css/task-8/images/task8.2.5.png)no-repeat 50% 50%;
+        background-size: 100% 100%;
+    }
+}

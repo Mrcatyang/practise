@@ -1,0 +1,91 @@
+@color:#29bde0;
+@border:.1rem solid #d0d0d0;
+
+html{
+  font-size: 62.5%;
+}
+body{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0;
+  color: white;
+}
+.rd{
+  width: 1rem;
+  height: 1rem;
+  margin: 0 .25rem;
+  border-radius: 50%;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.fixed(@t,@r,@l){
+  position: fixed;
+  top:@t;
+  right: @r;
+  left: @l;
+}
+.sprite(@w,@h,@x,@y){
+  display: inline-block;
+  width: @w;
+  height: @h;
+  background: url("http://119.10.57.69:880/jnshu3961/css/task13/images/task13.png")no-repeat;
+  background-position: @x @y;
+  background-size: 20rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .fixed(0,0,0);
+  padding:0 1rem;
+  height: 4rem;;
+  background: @color;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 1;
+}
+footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  background: @color;
+  .flex;
+  box-sizing: border-box;
+}
+.container{
+  display: inline-block;
+  width: 100%;
+  padding:0 15px;
+  margin-bottom: 50%;
+  box-sizing: border-box;
+  .row{
+    margin-left:-15px;
+    margin-right: -15px;
+    .col-xs-4{
+      float: left;
+      width: 33.33333%;
+      min-height: 1px;
+      padding-bottom: 3rem;
+    }
+  }
+}
+

@@ -1,0 +1,536 @@
+html{
+    font-size: 62.5%;
+}
+.cf1{
+    height: 2.85rem;
+    line-height:2.85rem;
+    font-size: 1rem;
+}
+.r1{
+    margin: 0 18.9%;
+}
+@media only screen and (max-width: 425px) {
+    .carousel-indicators{
+        bottom: 0;
+    }
+    .r1{
+        margin: 0;
+    }
+}
+.col-xs-2{
+    float:right;
+    width: 2rem;
+    height:2rem;
+    padding: 0;
+    margin: .4rem 0;
+}
+.a1{
+    display:inline-block;
+    width: 2rem;
+    height:2rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8.png)no-repeat 0 50%;
+    background-size:7rem;
+}
+.a2{
+    display:inline-block;
+    width: 2rem;
+    height:2rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8.png)no-repeat -2.7rem 50%;
+    background-size:7rem;
+}
+.a3{
+    display:inline-block;
+    width: 2rem;height:2rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8.png)no-repeat -5.2rem 50%;
+    background-size:7rem;
+}
+.navbar {
+    margin: 0;
+    border-radius: 0px;
+    border: none;
+}
+.navbar-default {
+    background-color: #29b078;
+}
+.navbar-collapse{
+    padding: .4% 18.9% ;
+    text-align: center;
+    border:none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus ,
+.navbar-default .navbar-nav > li > a{
+    color: #FFF;
+    border-bottom: .3rem solid #29b078;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: #29b078;
+    border-bottom: .3rem solid #FFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:#29b078;
+}
+.navbar-default .navbar-toggle {
+    border-color: #29b078;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+div.item img{
+    width:100%;
+}
+div#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+}
+.cf2{
+    margin: 8rem 18.9% 8rem 18.9%;
+}
+.li1-1{
+    display: inline-block;
+    width: 25.5%;
+    padding: 0 3.75%;
+    vertical-align:middle;
+    font-size: 1.14rem;
+    color: #999;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-4.png)no-repeat 50% 0;
+    background-size:4rem;
+}
+.li1-2{
+    display: inline-block;
+    vertical-align:middle;
+    width: 25.5%;
+    font-size: 1.14rem;
+    color: #999;
+    padding: 0 3.75%;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-5.png)no-repeat 50% 1rem;
+    background-size:4rem;
+}
+.li1-3{
+    display: inline-block;
+    vertical-align:middle;
+    width: 25.5%;
+    font-size: 1.14rem;
+    color: #999;
+    padding: 0 3.75%;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-6.png)no-repeat 50% 1rem;
+    background-size:4rem;
+    border-right:.13rem dashed #dedede;
+}
+.li1-4{
+    display: inline-block;
+    vertical-align:middle;
+    width: 22%;
+    padding-left: 5%;
+}
+.title{
+    text-align: center;
+    font-size: 1.28rem;
+    color: black;
+    padding-top: 5.5rem;
+}
+.num-1{
+    padding: 4.28rem 0 0 1.5rem;
+    color: #26a26f;
+    font-size: 1.28rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-6.1.png)no-repeat 0 4.5rem;
+    background-size: 1rem;
+}
+.num-2{
+    color: #26a26f;
+    font-size: 1.28rem;
+    padding-left:1.5rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-6.1.png)no-repeat 0 .2rem;
+    background-size: 1rem;
+}
+.num-3{
+    color: #999;
+    font-size: 1.28rem;
+}
+@media only screen and (max-width: 425px) {
+    .ul-1 {
+        margin: 2rem 10% 2rem 10%;
+    }
+
+    .col-xs-3 {
+        width: 100%;
+        margin: 10% 0;
+    }
+
+    .li1-2{
+        text-align: center;
+    }
+
+    .li1-3 {
+        border: none;
+    }
+    .navbar-default .navbar-brand,
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus ,
+    .navbar-default .navbar-nav > li > a{
+        border: none;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        border: none;
+    }
+}
+@media screen and (min-width: 425px)and (max-width:996px) {
+    .ul-1{
+        margin: 2rem 10% 2rem 10%;
+    }
+    .col-xs-3{
+        width: 50%;margin: 10% 0;
+        background-size: 4rem;
+    }
+    .li1-2,.li1-1{
+        text-align: center;
+    }
+    .li1-4{
+        margin-top: 2rem;
+        padding-left: 20%;
+    }
+}
+main{
+    padding: 0 18.9%;
+}
+.how{
+    text-align: center;
+    font-size: 1.28rem;
+}
+.study{
+    height:12rem;
+    padding: 4rem 0;
+}
+.learn{
+    display:inline-block;
+    width: 56%;
+    margin-left:.5rem;
+    vertical-align:middle;
+    font-size: .8rem;
+    color: #999;
+}
+.yu{
+    width: 26.5%;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-7.png)no-repeat 95% 50%;
+    background-size:1.8rem;
+}
+.tou{
+    width: 20.5%;
+}
+.round{
+    display:inline-block;
+    width:3.5rem;
+    height:3.5rem;
+    text-align: center;
+    vertical-align:middle;
+    line-height:3.5rem;
+    font-size: 1.28rem;
+    color: #29b078;
+    border-radius:50%;
+    border: .1rem solid #999;
+    box-shadow: 1px 1px 4px #888;
+}
+@media only screen and (max-width: 425px) {
+     main{
+         padding: 10%;
+     }
+    .study{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 425px)and (max-width:996px) {
+    main{
+        padding: 10%;
+    }
+    .study{
+        width: 50%;
+    }
+}
+
+.title-2{
+    text-align: center;
+    margin:4.2rem 0 4.5rem 0;
+    font-size: 1.28rem;
+}
+.student-1{
+    width:23%;
+    height: 26.7rem;
+    margin-right:2.66%;
+    border: .1rem solid #dedede;
+    border-top:none;
+    font-size: 1.14rem;
+    color: #999;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-11.png)no-repeat 50% 2.5rem;
+    background-size:7rem;
+    box-shadow: 1px 1px 4px #888;
+}
+.student-2{
+    width:23%;
+    height: 26.7rem;
+    margin-right:2.66%;
+    border: .1rem solid #dedede;
+    border-top:none;
+    font-size: 1.14rem;
+    color: #999;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-8.png)no-repeat 50% 2.5rem;
+    background-size:7rem;
+    box-shadow: 1px 1px 4px #888;
+}
+.student-3{
+    width:23%;
+    height: 26.7rem;
+    margin-right:2.66%;
+    border: .1rem solid #dedede;
+    border-top:none;
+    font-size: 1.14rem;
+    color: #999;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-9.png)no-repeat 50% 2.5rem;
+    background-size:7rem;
+    box-shadow: 1px 1px 4px #888;
+}
+.student-4{
+    width:23%;
+    height: 26.7rem;
+    border: .1rem solid #dedede;
+    border-top:none;
+    font-size: 1.14rem;
+    color: #999;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-10.png)no-repeat 50% 2.5rem;
+    background-size:7rem;
+    box-shadow: 1px 1px 4px #888;
+}
+.ldy{
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 1.28rem;
+    color: black;
+}
+.round-1{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.round-2{
+    display:inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius:50%;
+    background:#29b078;
+}
+.round-3{
+    display:inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius:50%;
+    border: .1rem solid #999;
+}
+
+@media only screen and (max-width: 425px) {
+    .student-1{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .student-2{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .student-3{width: 100%;margin-bottom: 1rem;}
+    .student-4{width: 100%;margin-bottom: 1rem;}
+}
+@media screen and (min-width: 425px)and (max-width:996px) {
+    .student-1{width: 48%;margin: 0 2% 5% 0;}
+    .student-2{width: 48%;margin: 0 0 5% 0;}
+    .student-3{width: 48%;margin: 0 2% 0 0;}
+    .student-4{width: 48%;margin: 0;}
+}
+footer{
+    padding: 0 18.9%;
+}
+.row-4{
+    border: .1rem solid #dedede;
+}
+.company{
+    width: 20%;height:12.8rem;
+}
+.company-1{
+    display:inline-block;
+    width:100%;
+    height:12.8rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-14.png)no-repeat 50% 50%;
+    background-size:100%;
+}
+.company-2{
+    display:inline-block;
+    width:100%;
+    height:12.8rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-12.png)no-repeat 50% 50%;
+    background-size:30%;
+}
+.company-3{
+    display:inline-block;
+    width:100%;
+    height:12.8rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-15.png)no-repeat 50% 50%;
+    background-size:100%;
+}
+.company-4{
+    display:inline-block;
+    width:100%;height:12.8rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-16.png)no-repeat 50% 50%;
+    background-size:100%;
+}
+.company-5{
+    display:inline-block;
+    width:100%;height:12.8rem;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-13.png)no-repeat 50% 50%;
+    background-size:100%;
+
+}
+.company:hover{
+    box-shadow: 1px 1px 4px #888;
+}
+@media only screen and (max-width: 425px) {
+     footer{padding: 0 10%;
+     }
+    .company{
+        width: 100%;
+        height:12.8rem;
+    }
+}
+@media screen and (min-width: 425px)and (max-width:996px) {
+    footer{padding: 0 10%;}
+    .company{width: 50%;height:12.8rem;}
+}
+.link-2{
+    text-align: center;
+    font-size: 1.28rem;
+    margin:4.2rem 0 1.5rem 0;
+}
+.link{
+    width:10%;
+    padding: 0;
+    color: #999;
+}
+.link-1{
+    font-size: .5rem;
+    color: #999;
+    height: 2rem;
+    line-height: 2rem;
+}
+.link-3{
+    margin: 0;
+    padding: 0;
+}
+.link-1:hover{
+    color: #999;
+}
+@media only screen and (max-width: 425px) {
+    .link{
+        width:33.3%;
+    }
+}
+@media screen and (min-width: 425px)and (max-width:996px) {
+    .link{
+        width:20%;
+    }
+}
+.foot{
+    background: #26a26f;
+    margin-top: 1rem;
+    padding: 0 18.9%;
+    color: #FFFFFF;
+}
+.jns{
+    width:25%;
+    height: 14.4rem;
+}
+.jns-title{
+    margin: 2.5rem 0 4rem 0;
+}
+.jns-link{
+    display:inline-block;
+    width:4.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size:1rem;
+    color: #FFFFFF;
+    border-right: .1rem solid white;
+}
+.jns-link:hover{
+    color: #FFFFFF;
+}
+.qxwz-title{
+    margin: 2.5rem 0 1.5rem 0;
+}
+.qxwz-content{
+    display:inline-block;
+    width:40%;
+    height: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    font-size:1rem;
+    color: #FFFFFF;
+}
+.qxwz-content:hover{
+    color: #FFFFFF;
+}
+.ewm{
+    float: right;
+}
+.ewm-title{
+    float: right;
+    height: 9rem;
+    margin: 2.5rem 0 0 0;
+    background: url(http://119.10.57.69:880/jnshu3943/csstask8/images/task8-17.png)no-repeat  50% 2rem;
+    background-size:6.4rem;
+}
+.last{
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background: #26a26f;
+}
+
+@media only screen and (max-width: 425px) {
+    .foot{
+        padding:0 10%;
+    }
+    .jns{
+        width:100%;
+    }
+    .qxwz{
+        width: 100%;
+    }
+    .ewm{
+        width: 100%;
+        text-align: center;
+        background-position: 50% 4rem;}
+    .ewm-title{
+        float: none;
+    }
+}
+@media screen and (min-width: 425px)and (max-width:996px) {
+    .foot{
+        padding:0 10%;
+    }
+    .jns {
+        width: 50%;
+    }
+    .qxwz {
+        width: 50%
+    }
+    .ewm {
+        width: 50%;
+        text-align: center;
+        background-position: 50% 4rem;
+    }
+    .ewm-title {
+        float: none;
+    }
+}

@@ -1,0 +1,32 @@
+main{
+    overflow: hidden;
+}
+.block{
+    width: 32.3%;
+    padding-top:32.3%;
+    margin:0.5%;
+    border-radius: 10%;
+    background: orange;
+    float: left;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 90%;
+    height: 4rem;
+    margin: 1rem;
+    font-size: 1.5rem ;
+    color: orange;
+    border-radius: .5rem;
+    background: white;
+    border: .1rem solid orange;
+    outline: none;
+}
+button:hover{
+    background: orange;
+    color: white;
+}

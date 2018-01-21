@@ -1,0 +1,38 @@
+<div class="bd">
+    <ul class="login-ul">
+        <h2>坤哥站后台登录</h2>
+        <form  ng-controller="login" name="myForm" novalidate>
+        <li>
+            <div class="dv">
+                <span class="pp"></span>
+                <input id="user" class="input" type="text" placeholder="用户名" name="user" ng-model="user" ng-minlength="3"
+                       ng-maxlength="10" required/>
+            </div>
+        </li>
+        <li class="login-li1">
+            <span ng-messages="myForm.user.$error" style="color:red;" ng-show="myForm.user.$touched">
+                <span ng-message="required">用户名不能为空</span>
+                <span ng-message="minlength">用户名长度至少为3</span>
+                <span ng-message="maxlength">用户名长度不能超过10</span>
+            </span>
+        </li>
+        <li>
+            <div class="dv">
+                <span class="lk"></span>
+                <input id="pwd" class="input"  type="password" placeholder="密码" name="password" ng-model="password" ng-minlength=
+                3 ng-maxlength=10 required/>
+            </div>
+        </li>
+        <li class="li2">
+            <span ng-messages="myForm.password.$error" style="color:red;" ng-show="myForm.password.$touched">
+                <span ng-message="required">密码不能为空</span>
+                <span ng-message="minlength">密码长度至少为3</span>
+                <span ng-message="maxlength">密码长度不能超过10</span>
+            </span>
+        </li>
+        <li class="bt">
+            <button id="login" ng-click="login()" ng-disabled="myForm.$invalid">登录</button></li>
+
+        </form>
+    </ul>
+</div>

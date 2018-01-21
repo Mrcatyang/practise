@@ -1,0 +1,21 @@
+
+    <div class="sd" ng-controller="myCtrl">
+        <h4>萝卜多后台管理系统</h4>
+        <ul >
+            <div ng-click="a()"><span class="sd-sp1"></span><span class="title" >信息管理</span><span class="sd-sp2"></span></div>
+            <li  ng-hide="kaiguan" ui-sref=".Page1">公司列表</li>
+            <li  ng-hide="kaiguan" ui-sref=".Page2">职位列表</li>
+        </ul>
+        <ul>
+            <div ng-click="b()"><span class="sd-sp1"></span><span class="title">Article管理</span><span class="sd-sp2"></span></div>
+            <li ng-hide="kaiguan2" ui-sref=".Page3">Article列表</li>
+        </ul>
+    </div>
+    <div class="mn">
+        <div class="mn-hd">
+            <span>admin</span>
+            <span><i class="cls"></i></span>
+        </div>
+        <div class="mn-bd" ui-view="">Welcome!</div>
+    </div>
+

@@ -1,0 +1,94 @@
+@color: #fff;
+@back-color: #5fc0cd;
+@base-size:2rem;
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+.padding{
+  padding: 0 @base-size;
+}
+.btn{
+  width: 100%;
+  height: @base-size * 2.2 ;
+}
+.color{
+    color: @color;
+}
+.back{
+    background: @back-color;
+}
+.text{
+  font-size: @base-size * .8;
+  text-decoration: none;
+}
+.ip{
+  font-size:@base-size;
+  border: none;
+  outline: none;
+}
+
+html{font-size: 62.5%;}
+body{margin: 0;background: #eff0f4;}
+header{
+  .flex;
+  .padding;
+  .back;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  height: @base-size * 1.9;
+  a{
+    .color;
+    .text;
+  }
+  .title{
+    font-size: @base-size;
+  }
+}
+/**主体部分**/
+main{
+  margin-top:@base-size * 2.3;
+  .ipt{
+    .flex;
+    .btn;
+    background: @color;
+    margin-top: @base-size * .4;
+    div{
+        .flex;
+        justify-content: center;
+        width: @base-size * 4;
+        height: @base-size * 1.2;
+        border-right:@base-size/10 solid #eaedee ;
+      img{
+          width: @base-size * .75;
+      }
+    }
+    input{
+      .ip;
+      padding-left: @base-size;
+      color: #eaedee;
+    }
+  }
+  button{
+    .btn;
+    .color;
+    .back;
+    .ip;
+    margin-top: @base-size * 1.5;
+  }
+}
+/**主体部分**/
+footer{
+  .flex;
+  .padding;
+  justify-content: flex-end;
+  height: @base-size * 1.5;
+  a{
+    .text;
+    color: @back-color;
+  }
+}

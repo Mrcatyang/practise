@@ -1,0 +1,145 @@
+/**重置样式**/
+html{
+  font-size: 62.5%;
+}
+body{
+  margin: 0;
+  background: #f0f0f0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0;
+}
+span{
+  display: inline-block;
+}
+h2,h3{
+  margin: 0;
+}
+input{
+  border: none;
+  outline: none;
+}
+/**重置样式**/
+
+/**基础样式**/
+@background:#29bedf;
+/**基础样式**/
+
+/**公共组件头部**/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: white;
+  background: @background;
+  .hd-pt1{
+    width: 2rem;
+    height: 2.4rem;
+    background: url("http://119.10.57.69:880/jnshu3961/js/task2/images/js-1.png")no-repeat;
+    background-size:1.2rem ;
+  }
+  .hd-pt2{
+    width: 2rem;
+    height: 2.4rem;
+    background: url("http://119.10.57.69:880/jnshu3961/js/task2/images/js-2.png")no-repeat;
+    background-size:2.1rem ;
+  }
+}
+/**公共组件头部**/
+main{
+  margin-top: 5rem;
+}
+ul{
+  padding: .5rem 1rem;
+  li{
+    margin-top: .5rem;
+  }
+  .li-tt{
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    background: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  #li-ide{
+    display: flex;
+    justify-content: space-around;
+    height: 12rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    background: #fbfbfb;
+    input{
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.5rem;
+      text-align: center;
+      background: #fbfbfb;
+    }
+  }
+  .li-wd{
+    height: 8rem;
+    padding: .8rem 2rem;
+    background: #fff;
+    box-sizing: border-box;
+  }
+  .li-nb{
+    height: 8rem;
+    padding: .8rem 2rem;
+    background: #fff;
+    box-sizing: border-box;
+    div{
+      display: flex;
+      justify-content: center;
+      .li-nb-pl{
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color:black;
+      }
+      #playernumber{
+        width: 2.5rem;
+        height: 2rem;
+        margin: 0 .3rem;
+        background: #f0f0f0;
+        border-radius: .5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fbb442;
+      }
+      .li-nb-ex{
+        height: 2rem;
+        line-height: 2rem;
+        color: #fbb442;
+      }
+    }
+  }
+}
+button{;
+  width: 100%;
+  height: 4.5rem;
+  font-size: 3rem;
+  color: white;
+  background:#fbb442 ;
+}

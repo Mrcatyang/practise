@@ -1,0 +1,42 @@
+.pn {
+  float: right;
+  font-size: .13rem;
+  margin: .11rem .2rem 0 0;
+}
+.pn input {
+  width: .4rem;
+  border: .01rem solid #999;
+  text-align: center;
+}
+nav {
+  float: right;
+  margin: .07rem .1rem 0 0;
+  height: 0;
+}
+nav li:hover {
+  background: blue;
+}
+.m0 {
+  margin: 0;
+}
+.pn2 {
+  display: flex;
+  float: right;
+  font-size: .13rem;
+  margin-top: .11rem ;
+}
+.pn2 span {
+  margin-right: .1rem;
+}
+.pn2 input {
+  width: .4rem;
+  border: .01rem solid #999;
+  text-align: center;
+}
+.pn2 button {
+  width: .4rem;
+  height: .23rem;
+  background: white;
+  color: blue;
+  border: .01rem solid #999;
+}

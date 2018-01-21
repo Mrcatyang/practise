@@ -1,0 +1,220 @@
+@base-color:#fff;
+@background:#5fc0cd;
+
+.pic{
+  background: url(http://119.10.57.69:880/jnshu3961/css/task12/images/task12.png) no-repeat;
+  background-size: 30rem;
+}
+
+.base-btn{
+  width: 20.5%;
+  height: 3.2rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  color: white;
+  position: absolute;
+  top: .35rem;
+}
+
+html{
+font-size: 62.5%;
+}
+body{
+margin: 0;
+margin-top: 3.9rem;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 3.9rem;
+  background: #5fc0cd;
+  button {
+    .base-btn;
+  }
+  a {
+    position: absolute;
+    right: 2rem;
+    top:.8rem;
+    width: 2.5rem;
+    height: 3rem;
+    .pic
+  }
+}
+
+.h-bt1{
+  background: #55a8b3;color: white;left:30%;
+}
+.h-bt2{
+  background: white;color:#5fc0cd;left:50%;
+}
+
+main{
+  margin-top:7.8rem;
+  margin-bottom: 20%;
+}
+
+.container{
+  position: fixed;
+  top: 3.9rem;
+  left: 0;
+  right: 0;
+  padding:0 15px;
+  height: 4rem;
+  border-bottom:.1rem solid #e1e5e7 ;
+  background: #fff;
+    .row{
+    margin-left:-15px;
+    margin-right: -15px;
+      .col-xs-4{
+      position: relative;
+      float: left;
+      width: 33.33333%;
+      min-height: 1px;
+      box-sizing:border-box;
+    }
+  }
+}
+
+.dropdown{
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.5rem;
+  color: #999;
+  text-align: center;
+  background: #fff url("http://119.10.57.69:880/jnshu3961/css/task12/images/task12-1.png")no-repeat 95% 50%;
+  background-size: 2rem;
+    .dropdown-content{
+    width:100%;
+    color: #999;
+    background:#fff;
+    display:none;
+    box-shadow:0px 8px 15px 0px rgba(0,0,0,0.2);
+      a{
+      color: #999;
+      text-decoration:none;
+      display:block;
+    }
+  }
+}
+
+.dropdown-content
+.dropdown-content a:hover{
+  background-color:#f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  li{
+    list-style: none;
+    min-height: 8rem;
+    border-bottom: .1rem solid #e1e5e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size:1.25rem;
+    color: #999;
+    padding: 1rem 2rem 1rem 0;
+    .ul-date{
+        display: flex;
+        align-items: center;
+      span{
+        display: inline-block;
+        width: 3rem;
+        height: 1.25rem;
+        .pic;
+        background-position: -90px 0;
+      }
+    }
+    .ul-time{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 3rem;
+      .ul-time1{
+        color: black;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space:nowrap;
+      }
+      .ul-time2{
+        color: red;
+        font-weight: bold;
+        padding-right: 2rem;
+        background: #fff url("http://119.10.57.69:880/jnshu3961/css/task12/images/task12-2.jpg")no-repeat 95% 50%;
+        background-size: .8rem;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        white-space:nowrap;
+      }
+    }
+    .ul-ads{
+      display: flex;
+      align-items: center;
+      span{
+        display: inline-block;
+        width: 3rem;
+        height: 1.25rem;
+        .pic;
+        background-position: -130px 0;
+      }
+    }
+  }
+}
+  footer{
+    position:fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 4.4rem;
+    background-color: #f8fafb;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+    button{
+      width: 3rem;
+      color: #999;
+      font-size: 1rem;
+      outline: none;
+      border: none;
+    }
+  }
+  .ft-bt1{
+    padding-top: 2.2rem;
+    background: white;
+    .pic;
+    background-position:-224px;
+  }
+.ft-bt2 {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  background: @background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    display: inline-block;
+    width:3rem;
+    height:3rem;
+    .pic;
+    background-position: -375px -1px;
+    background-size: 40rem;
+  }
+}
+  .ft-bt3{
+      padding-top: 2.2rem;
+      background: white;
+      .pic;
+      background-position:-329px;
+}
+
+
+

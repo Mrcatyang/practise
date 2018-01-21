@@ -1,0 +1,72 @@
+<div ui-view="" >
+    <div ng-controller="list">
+<ul class="mn-bd-ul1" >
+    <li class="li1">
+        <div class="w33"><span class="w35">发布时间</span>
+            <div class="w64" >
+                <p class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dat1"
+                           is-open="popup1.opened" ng-required="true" close-text="关闭"
+                           clear-text="清空" current-text="今天" alt-input-formats="altInputFormats" />
+                    <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+                </span>
+                </div>
+                </p>
+            </div>
+        </div>
+        <div class="w33"><span class="w35">—</span>
+            <div class="w64" >
+                <p class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dat2"
+                           is-open="popup2.opened" ng-required="true" close-text="关闭"
+                           clear-text="清空" current-text="今天" alt-input-formats="altInputFormats" />
+                    <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" ng-click="open2()"><i
+                            class="glyphicon glyphicon-calendar"></i></button>
+                </span>
+                </div>
+                </p>
+            </div>
+        </div>
+        <div class="w33"><span class="w35">类&emsp;&emsp;&emsp;型</span><select  ng-model="a" ng-options="type.id as type.name for type in types"></select></div>
+    </li>
+    <li>
+        <div class="w33"><span class="w35">状&emsp;&emsp;态</span><select  ng-model="b" ng-options="type.id as type.name for type in status"></select></div>
+    </li>
+    <li class="li3">
+        <button class="bt1" ng-click="clear()">清空</button>
+        <button class="bt2" ng-click="seo()">搜索</button>
+    </li>
+</ul>
+
+<div class="mn-bd-bt">
+    <div><h6>Article列表</h6><button ui-sref=".Page4">+新增</button></div>
+            <ul class="ul3" >
+                <li class="tt">
+                    <span class="ide">ID</span>
+                    <span class="nm">名称</span>
+                    <span class="ty">类型</span>
+                    <span class="tm1">发布时间</span>
+                    <span class="tm2">修改时间</span>
+                    <span class="fbz">发布者</span>
+                    <span class="sta">状态</span>
+                    <span class="cz">操作</span>
+                </li>
+                <li class="tt" ng-repeat="x in names">
+                    <span class="ide">{{x.id}}</span>
+                    <span class="nm">{{x.title}}</span>
+                    <span class="ty">{{x.type}}</span>
+                    <span class="tm1">{{x.createAt| date:'yyyy/MM/dd'}}</span>
+                    <span class="tm2">{{x.updateAt| date:'yyyy/MM/dd'}}</span>
+                    <span class="fbz">{{x.author}}</span>
+                    <span class="sta">{{x.status}}</span>
+                    <span class="cz"></span>
+                </li>
+            </ul>
+        </div>
+        <pagination page="page" max-page="maxPage"></pagination>
+    </div>
+</div>

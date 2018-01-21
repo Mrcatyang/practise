@@ -1,0 +1,597 @@
+/**重置样式**/
+html{
+  font-size: 62.5%;
+}
+body{
+  margin: 0;
+  background: #fafafa;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  margin: 0;
+}
+span{
+  display: inline-block;
+}
+h2,h3{
+  margin: 0;
+}
+/**重置样式**/
+
+/**基础样式**/
+@padding:0 15%;
+@padding2:0 5%;
+@color:#fff;
+@background:#26a26f;
+@border:.1rem solid #eeeded;
+
+.w5{width: 5rem}
+.gl1-w1{width: 27%!important;}
+.gl1-w2{width: 19%!important;}
+.w40{width: 40%}
+.w50{width: 50%}
+.w30{width: 50%}
+
+
+.plr{padding: 0 10%}
+.fm1{margin-left: -.5rem;}
+.mt1{margin-top: 1rem;}
+.mt3{margin-top: 3rem;}
+.mt5{margin-top: 5rem;}
+.mt8{margin-top: 8rem;}
+.mb3{margin-bottom: 3rem;}
+.mb20{margin-bottom: 20%}
+.bl{border-left: .2rem dashed #dedede;}
+.bt{border-bottom: @border}
+.br{border-right: .2rem solid #fff}
+.br2{border-right: @border}
+.tac{text-align: center}
+.color{color: @background}
+.color2{color: #999}
+
+.hz{
+  width: 100%;
+  height: 15rem;
+}
+.mlr {
+  margin-left:13.4%;
+  margin-right:6.6%;
+}
+.mrl {
+  margin-left:6.6%;
+  margin-right:13.4%;
+}
+.mr20 {margin-right:0%}
+.ml20 {margin-left:19%}
+
+.flex-ai-ct{
+  display: flex;
+  align-items: center;
+}
+.flex-jc-fs{
+  display: flex;
+  justify-content: flex-start;
+}
+.ss(@w,@h,@x,@y){
+  display: inline-block;
+  width: @w;
+  height: @h;
+  background: url("http://119.10.57.69:880/jnshu3961/css/task15/images/img.png")no-repeat;
+  background-position: @x @y;
+}
+.ms(@w,@h,@x,@y){
+  display: inline-block;
+  width: @w;
+  height: @h;
+  background: url("http://119.10.57.69:880/jnshu3961/css/task15/images/square.png")no-repeat;
+  background-position: @x @y;
+}
+.ls(@w,@h,@x,@y){
+  display: inline-block;
+  width: @w;
+  height: @h;
+  background: url("http://119.10.57.69:880/jnshu3961/css/task15/images/logo.png")no-repeat;
+  background-position: @x @y;
+  background-size: 25rem;
+}
+.container{
+  padding:0 15px;
+  overflow: hidden;
+  .row{
+    margin-left:-15px;
+    margin-right: -15px;
+    overflow: hidden;
+    .col-xs-3{
+      position: relative;
+      float: left;
+      width: 25%;
+      min-height: 1px;
+      box-sizing:border-box;
+    }
+  }
+}
+.rd{
+  width: 1rem;
+  height: 1rem;
+  margin: 0 .2rem;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 1px 1px 4px #888;
+}
+/**基础样式**/
+
+/**公共组件基础样式**/
+.g-mn-gl{
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+.plr;
+}
+/**公共组件基础样式**/
+
+/**头部**/
+  /**联系方式**/
+    .g-hd{
+      .flex-ai-ct;
+      justify-content: space-between;
+      padding: @padding;
+      color: @background;
+      background: @color;
+      .g-hd-p1{
+        .ls(2rem,2rem,0,0);
+      }
+      .g-hd-p2{
+        .ls(2rem,2rem,-2.7rem,0);
+      }
+      .g-hd-p3{
+        .ls(2rem,2rem,-5.4rem,0);
+      }
+    }
+  /**联系方式**/
+  /**导航栏**/
+    .g-nav{
+      .flex-ai-ct;
+      justify-content: space-between;
+      height: 6.6rem;
+      padding: @padding;
+      color: @color;
+      background: @background;
+      span{
+        .ls(10rem,6.6rem,0,-4.2rem);
+        background-size: 30rem;
+      }
+      div{
+        position: relative;
+        height: 6.6rem;
+      .g-nav-btn1{
+        width: 6.6rem;
+        height: 6.6rem;
+        color: @color;
+        background: @background;
+      }
+        .g-nav-btn1:hover{
+          border-top: .4rem solid @background;
+          border-bottom: .4rem solid @color;
+        }
+      }
+    }
+    .g-nav-drop{
+      span{
+        position: absolute;
+        top: 4rem;
+        right: 5%;
+        width: 3rem;
+        height: 3rem;
+        display: none;
+        background: @background;
+        div{
+          border: .2rem solid #656e73;
+          border-radius: .1rem;
+          margin: .45rem;
+          background: #656e73;
+        }
+      }
+      ul{
+        text-align: center;
+        color: @color;
+        background: @background;
+        display: none;
+        li{
+          .flex-ai-ct;
+          justify-content: center;
+          text-align: center;
+          height: 3rem;
+          border: .1rem solid @background;
+        }
+      }
+    }
+  /**导航栏**/
+
+/**头部**/
+
+/**主体**/
+.g-mn{
+  padding: @padding;
+  overflow: hidden;
+}
+/**公共组件一**/
+.g-mn-gl1{
+  .g-mn-gl;
+  justify-content: center;
+  font-size: 1rem;
+  div {
+    width: 100%;
+    .flex-ai-ct;
+    justify-content: center;
+    .g-mn-gl1-sp1 {
+      .ms(3.7rem, 5rem, 0, 0);
+    }
+    .g-mn-gl1-sp2 {
+      .ms(5rem, 5rem, 0, -8.8rem);
+    }
+    .g-mn-gl1-sp3 {
+      .ms(4.5rem, 5rem, 0, -17.2rem);
+    }
+  }
+  .g-mn-gl1-tt{
+    width: 100%;
+    margin: 1rem 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  p{
+    color: #999;
+  }
+}
+/**公共组件一**/
+/**公共组件一扩展组件**/
+.g-mn-glk{
+  .g-mn-gl;
+  font-size: 1rem;
+.g-mn-gl1-nm{
+  .ss(100%,1.2rem,0,0);
+  line-height: 1.2rem;
+  padding-left: 2rem;
+  margin-bottom: .5rem;
+  color: @background;
+  }
+}
+/**公共组件一扩展组件**/
+
+/**公共组件二**/
+.g-mn-gl2{
+  .flex-ai-ct;
+  height: 8rem;
+  .g-mn-gl2-sp1{
+    width:3rem;
+    height:3rem;
+    line-height: 3rem;
+    background: @color;
+    .tac;
+    border-radius: 50%;
+    color: @background;
+    box-shadow: 1px 1px 4px #888;
+  }
+  .g-mn-gl2-sp2{
+    width: 60%;
+    margin: 0 1rem;
+    color: #999;
+  }
+  .g-mn-gl2-sp3{
+    .ss(3rem,1.8rem,0,-8.6rem)
+  }
+}
+/**公共组件二**/
+
+/**公共组件三**/
+.g-mn-gl3{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:80%;
+  padding: 2rem;
+  background: @color;
+  box-sizing: border-box;
+  margin-top:3rem;
+  padding-bottom: 5rem;
+  border-bottom:.2rem solid #eeeded;
+  box-shadow: 1px 1px 4px #888;
+  .g-mn-gl3-sp1{
+    .ms(6rem,6rem,-6.5rem,0);
+    background-size:35rem ;
+  }
+  .g-mn-gl3-sp2{
+    .ms(6rem,6rem,-16.5rem,0);
+    background-size:35rem ;
+  }
+  .g-mn-gl3-sp3{
+    .ms(6rem,6rem,-6.5rem,-8.2rem);
+    background-size:35rem ;
+  }
+  .g-mn-gl3-sp4{
+    .ms(6rem,6rem,-16.5rem,-8rem);
+    background-size:35rem ;
+  }
+  h3{
+    width: 100%;
+    margin: 2rem 0 1rem 0;
+    .tac;
+  }
+  .g-mn-gl3-ct{
+   color: #999;
+  }
+}
+.g-mn-gl3-rd{
+  margin-top: 2rem;
+  text-align: center;
+  .g-mn-gl3-rd1{
+    background: @background;
+  }
+}
+/**公共组件三**/
+
+/**公共组件四**/
+.g-mn-cp{
+  display: flex;
+  border: .2rem solid #eeeded;
+  font-size: 0;
+  .g-mn-gl4{
+    width: 20%;
+    height: 10rem;
+    .flex-ai-ct;
+    justify-content: center;
+  }
+  .g-mn-gl4-lg1 {
+    .ls(10rem, 4rem, 0, -10rem);
+  }
+  .g-mn-gl4-lg2 {
+    .ls(3.4rem, 4rem, 0, -15.9rem);
+  }
+  .g-mn-gl4-lg3 {
+    .ls(10rem, 3.5rem,-13rem, 0);
+  }
+  .g-mn-gl4-lg4 {
+    .ls(11rem, 4rem, -13.9rem, -6rem);
+  }
+  .g-mn-gl4-lg5 {
+    .ls(10rem, 4rem, -13rem, -11.5rem);
+  }
+
+  .g-mn-gl4:hover{
+    box-shadow: 1px 1px 4px #888;
+  }
+}
+/**公共组件四**/
+/**主体**/
+
+/**尾部组件**/
+.g-ft{
+  display: flex;
+  height: 10rem;
+  padding: @padding;
+  background: @background;
+  .g-ft-lf{
+    display: flex;
+    justify-content: space-between;
+    height: 8rem;
+    .w5{
+      text-align: center;
+    }
+    .g-ft-lf2{
+      a{
+        display: inline-block;
+        border-bottom: .1rem solid @background;
+      }
+      a:hover{
+        border-bottom: .1rem solid #ffffff;
+      }
+    }
+  }
+  .g-ft-rt{
+     display: flex;
+    justify-content: flex-end;
+    padding: 2rem 2rem 0 0;
+    color: @color;
+   .jns{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     width: 8rem;
+     img{
+       width: 5.5rem;
+       height: 5.5rem;
+     }
+   }
+  }
+}
+/**通用模块五**/
+.g-ft-gl5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top:2rem;
+  color: white;
+}
+/**通用模块五**/
+
+.g-row{
+  display: flex;
+  justify-content: space-between;
+}
+/**通用模块六**/
+.g-mn-gl6{
+  position: relative;
+  float: left;
+  width: 32%;
+  margin: 1.5rem 0 0 0;
+  padding-top: 1rem;
+  border: .1rem solid #eeeded;
+  background: @color;
+  .gl6-row1 {
+    padding: 0 .5rem;
+    overflow: hidden;
+    .gl6-img {
+      float: left;
+      .ms(35%, 8rem, -27.5rem, 0);
+      background-size: 35rem;
+    }
+    .gl6-jd {
+      width: 65%;
+      word-break: break-all;
+      margin-top: .5rem;
+    }
+  }
+  .gl6-row2{
+    display: flex;
+    flex-wrap: wrap;
+    border-top:@border;
+    border-bottom:@border;
+    span{
+      display: flex;
+      align-items: ;
+      width: 50%;
+      height: 2rem;
+      padding: 0 .5rem;
+      color: #a9a9a9;
+      box-sizing: border-box;
+    }
+    .star{
+      .ss(1.5rem,2rem,0,-3.8rem);
+      margin-left: .5rem;
+    }
+  }
+  .gl6-row3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    .xzdy{
+      width: 40%;
+      height: 6rem;
+      line-height: 6rem;
+      color: #a9a9a9;
+      border-right:@border ;
+      box-sizing: border-box;
+    }
+    .ct{
+      width: 60%;
+      .xz{
+        height: 2rem;
+        padding:0 .5rem 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .gl6-row4{
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 .5rem;
+    border-top: @border;
+    border-bottom: @border;
+  }
+  .gl6-row5{
+    padding: 0 .5rem;
+    color: #a9a9a9;
+  }
+}
+/**通用模块六**/
+
+/**尾部组件**/
+/**网站备号**/
+.bh{
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  background: @background;
+  color: white;
+}
+/**网站备号**/
+
+/**公共媒体查询**/
+@media screen and (max-width: 767px) {
+  .g-hd, .g-nav,.g-mn ,.g-ft{
+    padding: @padding2;
+  }
+
+  .g-nav-btn1 {
+    display: none;
+  }
+
+  .g-nav-drop {
+    span {
+      display: block;
+    }
+    span:hover + ul {
+      display: block;
+    }
+  }
+  .gl1-w1 {
+    width: 100% !important;
+  }
+
+  .gl1-w2 {
+    width: 100% !important;
+  }
+
+  .container > .row > .col-xs-3 {
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+  .mt8 {
+    margin-top: 3rem
+  }
+
+  .mrl, .mlr, .ml20 {
+    margin: 0;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .g-mn-cp {
+    display: flex;
+    flex-wrap: wrap;
+    .g-mn-gl4 {
+      width: 50%;
+    }
+  }
+  .g-ft{
+    flex-wrap:wrap ;
+    height: 30rem;
+    .w50{width: 100%}
+    .w40{width: 100%!important;}
+    .w30{width: 30%}
+   .g-ft-lf{
+     flex-wrap: wrap;
+     justify-content: center;
+     height: 18rem;
+   }
+    .g-ft-rt{
+      justify-content: center;
+      padding: 0;
+    }
+  }
+  .bh{height: 6rem}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .g-hd, .g-nav, .g-mn, .g-ft {
+    padding: @padding2;
+  }
+}
+/**公共媒体查询**/

@@ -1,0 +1,79 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 64rem;
+    background: url(../images/back.png)no-repeat;
+    background-size: auto;
+}
+ul{
+    width: 30rem;
+    height: 20rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #d0d3d8;
+}
+h2{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #03a9f4;
+}
+div{
+    display: flex;
+    align-items: center;
+    width: 24rem;
+    height: 3rem;
+    margin-left: 10%;
+    background: white;
+}
+li{
+    text-align: center;
+}
+.li1{
+    height: 2rem;
+    line-height: 2rem;
+    color: red;
+}
+.li2{
+    height: 2rem;
+    line-height: 2rem;
+    color: red;
+}
+.bt{
+    margin-top: .5rem;
+}
+.pp{
+    display: inline-block;
+    width: 4rem;
+    height: 1.5rem;
+    border-right: .1rem solid #e8e8e8;
+    background: url(../images/pp.png)no-repeat 50% 50%;
+}
+.lk{
+    display: inline-block;
+    width: 4rem;
+    height: 1.5rem;
+    border-right: .1rem solid #e8e8e8;
+    background: url(../images/lk.png)no-repeat 50% 50%;
+}
+input{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+}
+button{
+    width: 75%;
+    height: 3rem;
+    background: #03a9f4;
+    border: none;
+    outline: none;
+    color: white;
+}

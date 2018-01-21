@@ -1,0 +1,275 @@
+html{
+  font-size: 625%;
+  height: 100%;
+}
+body{
+  margin: 0;
+  height: 100%;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h4,h5,h6{
+  margin: 0;
+}
+span{
+  display: inline-block;
+}
+input{
+  outline: none;
+}
+button{
+  outline: none ;
+  border: none;
+  cursor: pointer;
+}
+/**重置样式**/
+.sprite(@w,@h,@x,@y){
+  display: inline-block;
+  width: @w;
+  height: @h;
+  background: url("../images/sprite.png")no-repeat;
+  background-position: @x @y;
+}
+
+
+/**基础样式**/
+.sd{
+  float: left;
+  width: 15.625%;
+  height: 100%;
+  color: white;
+  background: #232a3a;
+
+  h4{
+    height: .5rem;
+    line-height: .5rem;
+    text-align:center ;
+    font-weight: bold;
+    font-size: .18rem;
+    border-bottom: .01rem solid #fff;
+    margin-bottom: .1rem;
+  }
+  div{
+    display: flex;
+    align-items: center;
+    height: .4rem;
+    cursor: pointer;
+    font-size: .16rem;
+    border-left:3px solid transparent ;
+    .sd-sp1{
+      .sprite(15px,15px,-10px,-74px);
+      margin: 0 .14rem 0 .22rem;
+    }
+    .sd-sp2{
+      .sprite(7px,10px,-10px,-10px);
+    }
+    .title{
+      width: 1.4rem;
+    }
+  }
+  div:hover{
+    background: #7b7f89;
+  }
+  li{
+    padding-left: .7rem;
+    height:.4rem;
+    line-height: .4rem;
+    font-size: .16rem;
+    cursor: pointer;
+  }
+  li:hover{
+    background: #7b7f89;
+  }
+ }
+.mn {
+  height: 100%;
+  background: #f5f5f5;
+  .mn-hd {
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .15rem;
+    text-align: right;
+    background: #fff;
+    span{
+      width: .9rem;
+      height: .15rem;
+      line-height: .15rem;
+      text-align: center;
+      border-left:.01rem solid #eee9e8;
+    }
+    .cls{
+      .sprite(14px,14px,-10px,-40px);
+    }
+  }
+  .mn-bd {
+    float: left;
+    width: 84.375%;
+    padding: .3rem;
+    box-sizing: border-box;
+    font-size: .3rem;
+    .mn-bd-ul1 {
+      width: 100%;
+      padding: .16rem .16rem .16rem .7rem;
+      height: 1.6rem;
+      box-sizing: border-box;
+      border: .01rem solid #ddd;
+      border-radius: .05rem;
+      background: #fff;
+      font-size: .15rem;
+      li {
+        height: 33.33333%;
+        display: flex;
+        align-items: center;
+        div {
+          width: 33.33%;
+          box-sizing: border-box;
+          span {
+            width: 35%;
+            text-align: center;
+            font-weight: bold;
+          }
+          input {
+            width: 64%;
+            height: .25rem;
+            border: .01rem solid #ccc;
+            border-radius: .03rem;
+          }
+        }
+      }
+      .li1 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .li3 {
+        justify-content: flex-end;
+        button {
+          width: .6rem;
+          height: .3rem;
+          margin: .02rem;
+          border-radius: .03rem;
+          color: #fff;
+        }
+        .bt1 {
+          background: #d9534f;
+        }
+        .bt2 {
+          background: #5cb85c;
+        }
+      }
+    }
+    .mn-bd-bt {
+      margin-top: .25rem;
+      border: .01rem solid #ddd;
+      border-radius: .05rem;
+      div {
+        height: .4rem;
+        padding: 0 .16rem;
+        border-bottom: .01rem solid #ddd;
+        background: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button{
+          height: .22rem;
+          background: #5cb85c;
+          color: white;
+          border-radius: .03rem;
+        }
+        }
+      .ul3{
+        padding: .16rem;
+        border: none;
+        background: #fff;
+        font-size: .15rem;
+        li{
+          height: .5rem;
+          border: .01rem solid #ddd;
+          border-bottom: none;
+        }
+        .os{
+          background: #f9f9f9;
+        }
+        .last{
+          border-bottom: .01rem solid #ddd;
+        }
+        .tt{
+          height: .35rem;
+          line-height: .35rem;
+          span{
+            text-align: center;
+            font-weight: bold;
+          }
+          .ide{
+            width: .6rem;
+          }
+          .nm{
+            width: 2.6rem;
+          }
+          .ty{
+            width: 1.8rem;
+          }
+          .tm1{
+            width: 1.4rem;
+          }
+          .tm2{
+            width: 1.4rem;
+          }
+          .fbz{
+            width: 1.2rem;
+          }
+          .sta{
+            width: .6rem;
+          }
+          .cz{
+            width: 2.62rem;
+          }
+        }
+        }
+      }
+    }
+}
+/**公共组件**/
+.page4{
+  height: 4.5rem;
+  border: .01rem solid #ddd;
+  border-radius: .05rem;
+  background: #fff;
+  div{
+    height: .4rem;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    border-bottom: .01rem solid #ddd;
+    h6{
+      margin-left: .2rem;
+    }
+  }
+  .ul4{
+    padding: .1rem 2.4rem .3rem 1.4rem;
+    border: none;
+    li{
+      height: .5rem;
+      span{
+        font-size: .15rem;
+        font-weight: bold;
+        margin-right: .3rem;
+      }
+      input{
+        width: 8rem;
+        height: .3rem;
+        border-radius: .03rem;
+        border: .01rem solid #ddd;
+      }
+      button{
+        width: .8rem;
+        background: #337ab7;
+        height: .35rem;
+        border-radius: .03rem;
+        color: white;
+      }
+    }
+  }
+}
